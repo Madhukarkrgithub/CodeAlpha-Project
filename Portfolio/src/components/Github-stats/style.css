@@ -1,0 +1,54 @@
+
+#Github{
+    /* border:1px solid red; */
+    padding-top:2px;
+}
+.github{
+    margin: auto;
+    margin-top: 20px;
+    width: 75%;
+    height:500px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    border: 1px solid #854ce6;
+    /* background-color: white; */
+    color: white;
+    padding: 50px 0px;
+    border-radius: 20px;
+   
+}
+
+.git h1{
+    font-size: 45px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 420px) {
+    .github {
+        width: 80%;
+        height: auto;
+        padding: 10px 20px;
+    }
+    .git h1{
+        font-size: 30px;
+        margin-left: -10px;
+    }
+   
+  }
+
+  @media screen and (max-width: 820px) {
+    .github {
+        width: 80%;
+        height: auto;
+        padding: 40px 20px;
+        margin-top: 40px;
+    }
+    .git h1{
+        margin-left: 40px;
+       
+    }
+    .git{
+       margin-top: -50px;
+    }
+  }
